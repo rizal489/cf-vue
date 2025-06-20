@@ -1,9 +1,16 @@
 {
   "name": "cf-vue",
-<<<<<<< HEAD
-  "compatibility_date": "2025-06-19"
-=======
   "compatibility_date": "2024-12-30",
->>>>>>> 4a837cc71145f61f534d59faf261eb427d7a85af
- 
+  "assets": {
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
+  },
+  "main": "./api/index.js",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cf-vue",
+      "database_id": "b2a00b76-049b-4cc9-884f-adae32e6559a"
+    }
+  ]
 }
